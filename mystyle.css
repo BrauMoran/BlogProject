@@ -1,0 +1,125 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0;
+    background-color: #efefef;
+}
+
+header{
+    background-color: #638259;
+    color: white;
+    padding: 3rem 2rem;
+}
+
+header h1{
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.container{ 
+    width: 400px;
+    margin: 0 auto;
+}
+
+.post{
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0rem;
+    cursor: pointer;
+}
+
+.post:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 30);
+
+}
+
+section article h2, section article p{
+    margin: 1rem;    
+}
+
+footer{
+    background-color: #638259;
+    padding: 3rem;
+    color: white;
+}
+
+footer section{
+    float: right;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+footer a:hover{
+    color: cornflowerblue;
+
+}
+
+.description{
+    width: 400px;
+    margin: 1rem auto;
+    border: solid 1px black;
+    border-radius: 0.5rem;
+   text-align: justify; 
+}
+
+
+.tabla {
+    width: 100%;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+
+th, td{
+    border: solid 2px black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th{
+    background-color: blue;
+    color:white;
+}
+
+tr:nth-child(odd){
+    background-color: rgba(0, 0, 255, 0.26);
+}
+
+tr:hover{
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+ul{
+    background-color: beige;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+ol{
+    background-color: #e9e06acb;
+    list-style-position: inside;
+}
+
+.description:hover{
+    transition: color 0.5s ease;
+    color: red;
+    cursor: pointer;
+}
+
